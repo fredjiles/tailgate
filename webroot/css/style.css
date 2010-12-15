@@ -1,0 +1,190 @@
+@import url('fileuploader.css');
+
+body {
+	background-color:#fff;
+	font-family:Arial, Helvetica, sans-serif;
+    margin:2% 10%;
+    background:#ccc;
+    background: -moz-linear-gradient(top, #f5f6f6 0%, #dbdce2 21%, #b8bac6 49%, #dddfe3 80%, #f5f6f6 100%); /* firefox */
+
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f6f6), color-stop(21%,#dbdce2), color-stop(49%,#b8bac6), color-stop(80%,#dddfe3), color-stop(100%,#f5f6f6)); /* webkit */
+}
+header,menu,section,article,hgroup{
+	display:block;
+}
+.clear {
+	clear:both;
+}
+.right{
+	float:right;
+}
+div#container{
+	width:960px;
+    background:#fff;
+    overflow:hidden;
+    padding:10px;
+}
+header{
+	
+	overflow:hidden;
+	width:960px;
+}
+header h1{
+	float:left;
+    color:#000;
+  font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2";
+
+}
+
+img {
+	border:none;
+}
+ #container{
+	
+}
+#page {
+	
+}
+
+p{
+	margin:0;
+	padding:0 30px;
+}
+
+section#member-info{
+    float:left;
+    width:200px;
+	padding-right:10px;
+}
+section#comments{
+    border-left:1px solid #ccc;
+  border-right:1px solid #ccc;
+	float:left;
+    width:400px;
+    padding:0 15px;
+}
+/*--- form.li3 ---*/
+form.li3 {
+	display: block;
+	clear: both;
+	background: #EEE;
+	padding: 1em 2em 2em 2em;
+	border: 1px solid #e6e6e6;
+}
+form.li3 fieldset {
+	padding: 2em;
+	margin: 0 0 1em 0;
+	border: 1px solid #e6e6e6;
+	background: #f3f3f3;
+}
+form.li3 legend {
+	padding: .5em 1em;
+	border: 1px solid #e6e6e6;
+	background: #fff;
+	font-size: 22px;
+}
+form.li3 label {
+	padding: 0 1em 0 0;
+	color: #454545;
+	font-weight: normal;
+}
+form.li3 input, form.li3 textarea,form.li3 button {
+	font-family: Helvetica, Arial, sans-serif;
+	padding: 2px 4px;
+	border: 1px solid #e5e5e5;
+	color: #454545;
+	font-size: 1em;
+	line-height: 1.25em;
+}
+form.li3 input[type=text],form.li3 input[type=password],form.li3 input[type=submit],form.li3 textarea {
+	clear: both;
+	display: block;
+	padding: .25em .5em;
+}
+form.li3 input[type=text],form.li3 input[type=password],form.li3 textarea {
+	width: 97%;
+	max-width: 950px;
+	margin: .5em 0 1em 0;
+	padding:.5em;
+}
+form.li3 input[type=submit], form.li3 input[type=button],form.li3 input[type=reset], form.li3 input[type=file],form.li3  button {
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	padding: .5em 1em;
+	margin: 0 .75em 0 0;
+	background-color: white;
+	color: black !important;
+	border: 1px solid #e5e5e5 !important;
+	cursor: pointer;
+}
+form.li3 select {
+	clear: both;
+	display: block;
+	margin: .5em 0 1em 0;
+}
+form.li3 div.checkbox {
+	clear: both;
+	padding: 1em 0;
+}
+form.li3 .checkbox label {
+	display: inline;
+}
+form.li3 input[type=submit] {
+	margin: 1em inherit;
+	border: none;
+	color: #000;
+	font-size: 16px;
+	font-weight: bold;
+}
+form.li3 input[type=text]:focus,form.li3  input[type=password]:focus, form.li3 textarea:focus, form.li3 select:focus {
+	border-color: #D70284;
+	outline: none;
+}
+/***************** Alubum View ************/
+div#album-images{
+    height:200px;
+    background:#ccc;
+    width:600px;
+}
+div#album-images img {
+    float:left;
+}
+hgroup#tailgate-info{
+    text-align:center;
+}
+/**************** Comments *****************/
+section#comments article{
+    border-top:1px solid #ccc;
+    clear:left;
+	padding:10px 0 10px 0;
+	overflow:hidden;
+   
+}
+section#comments img{
+    
+    float:left;
+    width:50px;
+    
+}
+section#comments p{
+    float:left;
+    width:335px;
+   font-size:13px;
+   padding:0 0 0 15px;
+}
+section#comments p span{
+    display:block;
+    font-size:10px;
+    color:#999;
+    
+}
+
+section#member-info{
+	
+}
+
+section#member-info h4 a{
+    font-size:10px;
+    color:#ccc;
+}
